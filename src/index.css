@@ -1,0 +1,40 @@
+ * {
+    font-family: "Open Sans", sans-serif;
+}
+
+#root { 
+    text-align: center;
+    margin-top: 80px;
+ }
+
+.fa-spinner.fa-spin { font-size: 42px; }
+
+#login {
+    display: flex;
+    flex-direction: column;
+
+    .login_provider {
+        border: 1px solid lightgray;
+        width: 300px;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    img { 
+        width: 30px;
+        vertical-align: middle;
+        margin-right: 20px;
+     }
+}
+
+
+.add_question {
+    max-width: 900px;
+    margin: auto;
+
+    button { margin: 10px; }
+
+    .MuiFormControl-root {
+        margin: 10px 5px;
+    }
+}

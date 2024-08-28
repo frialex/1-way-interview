@@ -1,0 +1,67 @@
+a { margin: 20px; }
+
+.video {
+    position: relative;
+
+    video {
+        width: 95%;
+        max-width: 800px;
+        margin: 10px auto;
+        display: block;
+        border: 5px solid blue;
+    }
+
+    video.recording { border: 3px solid red; }
+
+    button {
+        position: absolute;
+        top: 0px;
+    }
+    .MuiButtonGroup-root { position: absolute; top: 5px; }
+}
+
+.video-list {
+    border: 3px solid lightgray;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+
+    .video-list_detail {
+        border: 3px solid lightgray;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    video {
+        max-width: 90%;
+        margin: 5px;
+    }
+
+    .video-author {
+        text-align: center;
+        p{
+            vertical-align: bottom;
+            margin-right: 10px;
+        }
+        img { border-radius: 50%; width: 50px; }
+    }
+}
+
+.copy-to-clipboard { cursor: pointer;}
+
+.MuiButtonGroup-root > button { position: static; }
+
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0px -5px 12px 0px;
+}
+
+.answer p { font-size: 30px; }
